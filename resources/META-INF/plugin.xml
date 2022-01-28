@@ -1,0 +1,23 @@
+<idea-plugin>
+  <id>ca.bertsa.keymap</id>
+  <name>Bertsa</name>
+  <version>1.0</version>
+  <vendor email="bertsa.pro@gmail.com" url="http://www.bertsa.com">BertSa</vendor>
+
+  <description><![CDATA[A keymap of my preference for all of my programming IDE]]></description>
+
+  <change-notes><![CDATA[]]></change-notes>
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledKeymap file="BertSa.xml" />
+  </extensions>
+
+  <actions/>
+</idea-plugin>
